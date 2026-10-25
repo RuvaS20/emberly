@@ -1,0 +1,639 @@
+[
+  {
+    "id": "ZW1601",
+    "name": "Beitbridge",
+    "province": "Matabeleland South",
+    "lat": -21.9073,
+    "lon": 30.0309
+  },
+  {
+    "id": "ZW1622",
+    "name": "Beitbridge Urban",
+    "province": "Matabeleland South",
+    "lat": -22.1976,
+    "lon": 30.0052
+  },
+  {
+    "id": "ZW1801",
+    "name": "Bikita",
+    "province": "Masvingo",
+    "lat": -20.1452,
+    "lon": 31.912
+  },
+  {
+    "id": "ZW1201",
+    "name": "Bindura",
+    "province": "Mashonaland Central",
+    "lat": -17.2456,
+    "lon": 31.3083
+  },
+  {
+    "id": "ZW1221",
+    "name": "Bindura Urban",
+    "province": "Mashonaland Central",
+    "lat": -17.3094,
+    "lon": 31.3389
+  },
+  {
+    "id": "ZW1501",
+    "name": "Binga",
+    "province": "Matabeleland North",
+    "lat": -17.7903,
+    "lon": 27.6561
+  },
+  {
+    "id": "ZW1502",
+    "name": "Bubi",
+    "province": "Matabeleland North",
+    "lat": -19.5138,
+    "lon": 28.6847
+  },
+  {
+    "id": "ZW1101",
+    "name": "Buhera",
+    "province": "Manicaland",
+    "lat": -19.4488,
+    "lon": 31.8677
+  },
+  {
+    "id": "ZW1021",
+    "name": "Bulawayo",
+    "province": "Bulawayo",
+    "lat": -20.1218,
+    "lon": 28.5557
+  },
+  {
+    "id": "ZW1602",
+    "name": "Bulilima",
+    "province": "Matabeleland South",
+    "lat": -20.1692,
+    "lon": 27.5734
+  },
+  {
+    "id": "ZW1202",
+    "name": "Centenary/ Muzarabani",
+    "province": "Mashonaland Central",
+    "lat": -16.4255,
+    "lon": 31.1439
+  },
+  {
+    "id": "ZW1401",
+    "name": "Chegutu",
+    "province": "Mashonaland West",
+    "lat": -18.1435,
+    "lon": 30.3949
+  },
+  {
+    "id": "ZW1423",
+    "name": "Chegutu Urban",
+    "province": "Mashonaland West",
+    "lat": -18.1244,
+    "lon": 30.1347
+  },
+  {
+    "id": "ZW1301",
+    "name": "Chikomba",
+    "province": "Mashonaland East",
+    "lat": -18.8909,
+    "lon": 31.1039
+  },
+  {
+    "id": "ZW1102",
+    "name": "Chimanimani",
+    "province": "Manicaland",
+    "lat": -19.7837,
+    "lon": 32.7214
+  },
+  {
+    "id": "ZW1421",
+    "name": "Chinhoyi",
+    "province": "Mashonaland West",
+    "lat": -17.3589,
+    "lon": 30.1296
+  },
+  {
+    "id": "ZW1103",
+    "name": "Chipinge",
+    "province": "Manicaland",
+    "lat": -20.4955,
+    "lon": 32.4742
+  },
+  {
+    "id": "ZW1123",
+    "name": "Chipinge Urban",
+    "province": "Manicaland",
+    "lat": -20.2033,
+    "lon": 32.6252
+  },
+  {
+    "id": "ZW1802",
+    "name": "Chiredzi",
+    "province": "Masvingo",
+    "lat": -21.3458,
+    "lon": 31.6842
+  },
+  {
+    "id": "ZW1822",
+    "name": "Chiredzi Urban",
+    "province": "Masvingo",
+    "lat": -21.0293,
+    "lon": 31.6797
+  },
+  {
+    "id": "ZW1701",
+    "name": "Chirumhanzu",
+    "province": "Midlands",
+    "lat": -19.3194,
+    "lon": 30.4814
+  },
+  {
+    "id": "ZW1922",
+    "name": "Chitungwiza",
+    "province": "Harare",
+    "lat": -18.0142,
+    "lon": 31.0628
+  },
+  {
+    "id": "ZW1803",
+    "name": "Chivi",
+    "province": "Masvingo",
+    "lat": -20.4899,
+    "lon": 30.5747
+  },
+  {
+    "id": "ZW1923",
+    "name": "Epworth",
+    "province": "Harare",
+    "lat": -17.8953,
+    "lon": 31.1588
+  },
+  {
+    "id": "ZW1702",
+    "name": "Gokwe North",
+    "province": "Midlands",
+    "lat": -17.5704,
+    "lon": 28.8374
+  },
+  {
+    "id": "ZW1703",
+    "name": "Gokwe South",
+    "province": "Midlands",
+    "lat": -18.2065,
+    "lon": 28.645
+  },
+  {
+    "id": "ZW1729",
+    "name": "Gokwe South Urban",
+    "province": "Midlands",
+    "lat": -18.2213,
+    "lon": 28.9402
+  },
+  {
+    "id": "ZW1302",
+    "name": "Goromonzi",
+    "province": "Mashonaland East",
+    "lat": -17.7847,
+    "lon": 31.3381
+  },
+  {
+    "id": "ZW1203",
+    "name": "Guruve",
+    "province": "Mashonaland Central",
+    "lat": -16.6843,
+    "lon": 30.6579
+  },
+  {
+    "id": "ZW1804",
+    "name": "Gutu",
+    "province": "Masvingo",
+    "lat": -19.6108,
+    "lon": 31.2422
+  },
+  {
+    "id": "ZW1604",
+    "name": "Gwanda",
+    "province": "Matabeleland South",
+    "lat": -21.2359,
+    "lon": 29.1621
+  },
+  {
+    "id": "ZW1621",
+    "name": "Gwanda Urban",
+    "province": "Matabeleland South",
+    "lat": -20.9339,
+    "lon": 29.001
+  },
+  {
+    "id": "ZW1704",
+    "name": "Gweru",
+    "province": "Midlands",
+    "lat": -19.4667,
+    "lon": 29.6368
+  },
+  {
+    "id": "ZW1721",
+    "name": "Gweru Urban",
+    "province": "Midlands",
+    "lat": -19.4527,
+    "lon": 29.8179
+  },
+  {
+    "id": "ZW1921",
+    "name": "Harare",
+    "province": "Harare",
+    "lat": -17.8088,
+    "lon": 31.0537
+  },
+  {
+    "id": "ZW1924",
+    "name": "Harare Rural",
+    "province": "Harare",
+    "lat": -17.9449,
+    "lon": 31.0333
+  },
+  {
+    "id": "ZW1402",
+    "name": "Hurungwe",
+    "province": "Mashonaland West",
+    "lat": -16.4344,
+    "lon": 29.5371
+  },
+  {
+    "id": "ZW1503",
+    "name": "Hwange",
+    "province": "Matabeleland North",
+    "lat": -18.7085,
+    "lon": 26.4218
+  },
+  {
+    "id": "ZW1521",
+    "name": "Hwange Urban",
+    "province": "Matabeleland North",
+    "lat": -18.372,
+    "lon": 26.468
+  },
+  {
+    "id": "ZW1303",
+    "name": "Hwedza",
+    "province": "Mashonaland East",
+    "lat": -18.7358,
+    "lon": 31.6353
+  },
+  {
+    "id": "ZW1605",
+    "name": "Insiza",
+    "province": "Matabeleland South",
+    "lat": -20.2571,
+    "lon": 29.4049
+  },
+  {
+    "id": "ZW1403",
+    "name": "Kadoma Urban",
+    "province": "Mashonaland West",
+    "lat": -18.3392,
+    "lon": 29.928
+  },
+  {
+    "id": "ZW1404",
+    "name": "Kariba",
+    "province": "Mashonaland West",
+    "lat": -16.8923,
+    "lon": 28.611
+  },
+  {
+    "id": "ZW1424",
+    "name": "Kariba Urban",
+    "province": "Mashonaland West",
+    "lat": -16.5232,
+    "lon": 28.808
+  },
+  {
+    "id": "ZW1426",
+    "name": "Karoi",
+    "province": "Mashonaland West",
+    "lat": -16.8206,
+    "lon": 29.6946
+  },
+  {
+    "id": "ZW1705",
+    "name": "Kwekwe",
+    "province": "Midlands",
+    "lat": -18.879,
+    "lon": 29.5515
+  },
+  {
+    "id": "ZW1722",
+    "name": "Kwekwe Urban",
+    "province": "Midlands",
+    "lat": -18.9175,
+    "lon": 29.8164
+  },
+  {
+    "id": "ZW1504",
+    "name": "Lupane",
+    "province": "Matabeleland North",
+    "lat": -18.8388,
+    "lon": 27.7928
+  },
+  {
+    "id": "ZW1405",
+    "name": "Makonde",
+    "province": "Mashonaland West",
+    "lat": -17.1227,
+    "lon": 30.0128
+  },
+  {
+    "id": "ZW1104",
+    "name": "Makoni",
+    "province": "Manicaland",
+    "lat": -18.3618,
+    "lon": 32.1831
+  },
+  {
+    "id": "ZW1603",
+    "name": "Mangwe",
+    "province": "Matabeleland South",
+    "lat": -20.9891,
+    "lon": 28.0193
+  },
+  {
+    "id": "ZW1304",
+    "name": "Marondera",
+    "province": "Mashonaland East",
+    "lat": -18.271,
+    "lon": 31.4977
+  },
+  {
+    "id": "ZW1321",
+    "name": "Marondera Urban",
+    "province": "Mashonaland East",
+    "lat": -18.2,
+    "lon": 31.5484
+  },
+  {
+    "id": "ZW1805",
+    "name": "Masvingo",
+    "province": "Masvingo",
+    "lat": -20.2599,
+    "lon": 30.9104
+  },
+  {
+    "id": "ZW1821",
+    "name": "Masvingo Urban",
+    "province": "Masvingo",
+    "lat": -20.0731,
+    "lon": 30.8349
+  },
+  {
+    "id": "ZW1606",
+    "name": "Matobo",
+    "province": "Matabeleland South",
+    "lat": -20.9539,
+    "lon": 28.4909
+  },
+  {
+    "id": "ZW1204",
+    "name": "Mazowe",
+    "province": "Mashonaland Central",
+    "lat": -17.2519,
+    "lon": 30.9318
+  },
+  {
+    "id": "ZW1706",
+    "name": "Mberengwa",
+    "province": "Midlands",
+    "lat": -20.7437,
+    "lon": 30.01
+  },
+  {
+    "id": "ZW1208",
+    "name": "Mbire",
+    "province": "Mashonaland Central",
+    "lat": -16.1174,
+    "lon": 30.5194
+  },
+  {
+    "id": "ZW1427",
+    "name": "Mhondoro-Ngezi",
+    "province": "Mashonaland West",
+    "lat": -18.5779,
+    "lon": 30.1636
+  },
+  {
+    "id": "ZW1205",
+    "name": "Mount Darwin",
+    "province": "Mashonaland Central",
+    "lat": -16.5704,
+    "lon": 31.6519
+  },
+  {
+    "id": "ZW1305",
+    "name": "Mudzi",
+    "province": "Mashonaland East",
+    "lat": -17.0313,
+    "lon": 32.638
+  },
+  {
+    "id": "ZW1306",
+    "name": "Murehwa",
+    "province": "Mashonaland East",
+    "lat": -17.7967,
+    "lon": 31.8216
+  },
+  {
+    "id": "ZW1105",
+    "name": "Mutare",
+    "province": "Manicaland",
+    "lat": -19.2312,
+    "lon": 32.4237
+  },
+  {
+    "id": "ZW1121",
+    "name": "Mutare Urban",
+    "province": "Manicaland",
+    "lat": -18.9933,
+    "lon": 32.6201
+  },
+  {
+    "id": "ZW1106",
+    "name": "Mutasa",
+    "province": "Manicaland",
+    "lat": -18.6392,
+    "lon": 32.709
+  },
+  {
+    "id": "ZW1307",
+    "name": "Mutoko",
+    "province": "Mashonaland East",
+    "lat": -17.4443,
+    "lon": 32.2743
+  },
+  {
+    "id": "ZW1209",
+    "name": "Mvurwi",
+    "province": "Mashonaland Central",
+    "lat": -17.0246,
+    "lon": 30.8502
+  },
+  {
+    "id": "ZW1806",
+    "name": "Mwenezi",
+    "province": "Masvingo",
+    "lat": -21.3653,
+    "lon": 30.691
+  },
+  {
+    "id": "ZW1505",
+    "name": "Nkayi",
+    "province": "Matabeleland North",
+    "lat": -18.8834,
+    "lon": 28.661
+  },
+  {
+    "id": "ZW1425",
+    "name": "Norton",
+    "province": "Mashonaland West",
+    "lat": -17.882,
+    "lon": 30.6783
+  },
+  {
+    "id": "ZW1107",
+    "name": "Nyanga",
+    "province": "Manicaland",
+    "lat": -17.9374,
+    "lon": 32.758
+  },
+  {
+    "id": "ZW1623",
+    "name": "Plumtree",
+    "province": "Matabeleland South",
+    "lat": -20.5041,
+    "lon": 27.8164
+  },
+  {
+    "id": "ZW1723",
+    "name": "Redcliff",
+    "province": "Midlands",
+    "lat": -19.0229,
+    "lon": 29.7659
+  },
+  {
+    "id": "ZW1122",
+    "name": "Rusape",
+    "province": "Manicaland",
+    "lat": -18.5382,
+    "lon": 32.1312
+  },
+  {
+    "id": "ZW1206",
+    "name": "Rushinga",
+    "province": "Mashonaland Central",
+    "lat": -16.6077,
+    "lon": 32.2953
+  },
+  {
+    "id": "ZW1326",
+    "name": "Ruwa",
+    "province": "Mashonaland East",
+    "lat": -17.8846,
+    "lon": 31.2282
+  },
+  {
+    "id": "ZW1428",
+    "name": "Sanyati",
+    "province": "Mashonaland West",
+    "lat": -18.0215,
+    "lon": 29.581
+  },
+  {
+    "id": "ZW1308",
+    "name": "Seke",
+    "province": "Mashonaland East",
+    "lat": -18.2541,
+    "lon": 30.9531
+  },
+  {
+    "id": "ZW1207",
+    "name": "Shamva",
+    "province": "Mashonaland Central",
+    "lat": -17.0946,
+    "lon": 31.6389
+  },
+  {
+    "id": "ZW1707",
+    "name": "Shurugwi",
+    "province": "Midlands",
+    "lat": -19.7502,
+    "lon": 30.1529
+  },
+  {
+    "id": "ZW1728",
+    "name": "Shurugwi Town",
+    "province": "Midlands",
+    "lat": -19.6937,
+    "lon": 29.9979
+  },
+  {
+    "id": "ZW1506",
+    "name": "Tsholotsho",
+    "province": "Matabeleland North",
+    "lat": -19.6195,
+    "lon": 27.4136
+  },
+  {
+    "id": "ZW1507",
+    "name": "Umguza",
+    "province": "Matabeleland North",
+    "lat": -19.8196,
+    "lon": 28.2705
+  },
+  {
+    "id": "ZW1607",
+    "name": "Umzingwane",
+    "province": "Matabeleland South",
+    "lat": -20.3445,
+    "lon": 28.9455
+  },
+  {
+    "id": "ZW1309",
+    "name": "Uzumba Maramba Pfungwe",
+    "province": "Mashonaland East",
+    "lat": -17.0814,
+    "lon": 32.0435
+  },
+  {
+    "id": "ZW1522",
+    "name": "Victoria Falls",
+    "province": "Matabeleland North",
+    "lat": -17.9279,
+    "lon": 25.8292
+  },
+  {
+    "id": "ZW1807",
+    "name": "Zaka",
+    "province": "Masvingo",
+    "lat": -20.3866,
+    "lon": 31.4273
+  },
+  {
+    "id": "ZW1406",
+    "name": "Zvimba",
+    "province": "Mashonaland West",
+    "lat": -17.5033,
+    "lon": 30.4474
+  },
+  {
+    "id": "ZW1708",
+    "name": "Zvishavane",
+    "province": "Midlands",
+    "lat": -20.2771,
+    "lon": 30.0785
+  },
+  {
+    "id": "ZW1725",
+    "name": "Zvishavane Urban",
+    "province": "Midlands",
+    "lat": -20.3199,
+    "lon": 30.0538
+  }
+]

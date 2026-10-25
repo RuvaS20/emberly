@@ -1,0 +1,18 @@
+.section {
+  padding: var(--space-8) var(--space-4);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-xl);
+  background: var(--surface);
+}
+
+.source {
+  margin-top: var(--space-4);
+  color: var(--ink-faint);
+  font-size: var(--text-xs);
+  line-height: 1.5;
+}
+
+.message {
+  color: var(--ink-faint);
+  font-size: var(--text-sm);
+}

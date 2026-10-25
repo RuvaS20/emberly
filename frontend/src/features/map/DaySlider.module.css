@@ -1,0 +1,25 @@
+.label {
+  display: block;
+  margin-bottom: var(--space-1);
+  color: var(--ink-muted);
+  font-size: var(--text-sm);
+  line-height: var(--text-sm-leading);
+}
+
+.current {
+  color: var(--ink);
+  font-weight: 500;
+}
+
+.range {
+  width: 100%;
+  accent-color: var(--accent-bright);
+}
+
+.ticks {
+  display: flex;
+  justify-content: space-between;
+  color: var(--ink-faint);
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-leading);
+}

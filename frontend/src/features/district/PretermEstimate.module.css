@@ -1,0 +1,26 @@
+.box {
+  padding: var(--space-3);
+  border-radius: var(--radius-lg);
+  background: var(--surface-muted);
+}
+
+.line {
+  color: var(--ink-body);
+  font-size: var(--text-sm);
+  line-height: var(--text-sm-leading);
+}
+
+.figure {
+  color: var(--ink);
+  font-size: var(--text-2xl);
+  line-height: var(--text-2xl-leading);
+  font-weight: 600;
+}
+
+.unit {
+  color: var(--ink-muted);
+}
+
+.note {
+  margin-top: var(--space-1);
+}

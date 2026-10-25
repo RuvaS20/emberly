@@ -1,0 +1,457 @@
+{
+  "ZW1601": {
+    "name": "Beitbridge",
+    "population": 94001,
+    "matched": "Beitbridge Rural"
+  },
+  "ZW1622": {
+    "name": "Beitbridge Urban",
+    "population": 58574,
+    "matched": "Beitbridge Urban"
+  },
+  "ZW1801": {
+    "name": "Bikita",
+    "population": 176835,
+    "matched": "Bikita"
+  },
+  "ZW1201": {
+    "name": "Bindura",
+    "population": 169841,
+    "matched": "Bindura Rural"
+  },
+  "ZW1221": {
+    "name": "Bindura Urban",
+    "population": 51394,
+    "matched": "Bindura Urban"
+  },
+  "ZW1501": {
+    "name": "Binga",
+    "population": 159982,
+    "matched": "Binga"
+  },
+  "ZW1502": {
+    "name": "Bubi",
+    "population": 74084,
+    "matched": "Bubi"
+  },
+  "ZW1101": {
+    "name": "Buhera",
+    "population": 271920,
+    "matched": "Buhera"
+  },
+  "ZW1021": {
+    "name": "Bulawayo",
+    "population": 665952,
+    "matched": "Bulawayo"
+  },
+  "ZW1602": {
+    "name": "Bulilima",
+    "population": 85600,
+    "matched": "Bulilima"
+  },
+  "ZW1202": {
+    "name": "Centenary/ Muzarabani",
+    "population": 134076,
+    "matched": "Muzarabani (Centenary)"
+  },
+  "ZW1401": {
+    "name": "Chegutu",
+    "population": 178911,
+    "matched": "Chegutu Rural"
+  },
+  "ZW1423": {
+    "name": "Chegutu Urban",
+    "population": 66260,
+    "matched": "Chegutu Urban"
+  },
+  "ZW1301": {
+    "name": "Chikomba",
+    "population": 123932,
+    "matched": "Chikomba"
+  },
+  "ZW1102": {
+    "name": "Chimanimani",
+    "population": 153619,
+    "matched": "Chimanimani"
+  },
+  "ZW1421": {
+    "name": "Chinhoyi",
+    "population": 103657,
+    "matched": "Chinhoyi"
+  },
+  "ZW1103": {
+    "name": "Chipinge",
+    "population": 375259,
+    "matched": "Chipinge Rural"
+  },
+  "ZW1123": {
+    "name": "Chipinge Urban",
+    "population": 34959,
+    "matched": "Chipinge Urban"
+  },
+  "ZW1802": {
+    "name": "Chiredzi",
+    "population": 303503,
+    "matched": "Chiredzi Rural"
+  },
+  "ZW1822": {
+    "name": "Chiredzi Urban",
+    "population": 40457,
+    "matched": "Chiredzi Urban"
+  },
+  "ZW1701": {
+    "name": "Chirumhanzu",
+    "population": 95272,
+    "matched": "Chirumhanzu"
+  },
+  "ZW1922": {
+    "name": "Chitungwiza",
+    "population": 371246,
+    "matched": "Chitungwiza"
+  },
+  "ZW1803": {
+    "name": "Chivi",
+    "population": 172979,
+    "matched": "Chivi"
+  },
+  "ZW1923": {
+    "name": "Epworth",
+    "population": 206368,
+    "matched": "Epworth"
+  },
+  "ZW1702": {
+    "name": "Gokwe North",
+    "population": 249723,
+    "matched": "Gokwe North"
+  },
+  "ZW1703": {
+    "name": "Gokwe South",
+    "population": 317554,
+    "matched": "Gokwe South"
+  },
+  "ZW1729": {
+    "name": "Gokwe South Urban",
+    "population": 33073,
+    "matched": "Gokwe Urban"
+  },
+  "ZW1302": {
+    "name": "Goromonzi",
+    "population": 386203,
+    "matched": "Goromonzi"
+  },
+  "ZW1203": {
+    "name": "Guruve",
+    "population": 153606,
+    "matched": "Guruve"
+  },
+  "ZW1804": {
+    "name": "Gutu",
+    "population": 208149,
+    "matched": "Gutu"
+  },
+  "ZW1604": {
+    "name": "Gwanda",
+    "population": 124548,
+    "matched": "Gwanda Rural"
+  },
+  "ZW1621": {
+    "name": "Gwanda Urban",
+    "population": 27143,
+    "matched": "Gwanda Urban"
+  },
+  "ZW1704": {
+    "name": "Gweru",
+    "population": 121712,
+    "matched": "Gweru Rural"
+  },
+  "ZW1721": {
+    "name": "Gweru Urban",
+    "population": 161294,
+    "matched": "Gweru Urban"
+  },
+  "ZW1921": {
+    "name": "Harare",
+    "population": 1491754,
+    "matched": "Harare Urban"
+  },
+  "ZW1924": {
+    "name": "Harare Rural",
+    "population": 357863,
+    "matched": "Harare Rural"
+  },
+  "ZW1402": {
+    "name": "Hurungwe",
+    "population": 390897,
+    "matched": "Hurungwe (Karoi Rural)"
+  },
+  "ZW1503": {
+    "name": "Hwange",
+    "population": 69357,
+    "matched": "Hwange Rural"
+  },
+  "ZW1521": {
+    "name": "Hwange Urban",
+    "population": 40241,
+    "matched": "Hwange Urban"
+  },
+  "ZW1303": {
+    "name": "Hwedza",
+    "population": 74870,
+    "matched": "Hwedza (Wedza)"
+  },
+  "ZW1605": {
+    "name": "Insiza",
+    "population": 122903,
+    "matched": "Insiza"
+  },
+  "ZW1403": {
+    "name": "Kadoma Urban",
+    "population": 117381,
+    "matched": "Kadoma Urban"
+  },
+  "ZW1404": {
+    "name": "Kariba",
+    "population": 45774,
+    "matched": "Kariba Rural"
+  },
+  "ZW1424": {
+    "name": "Kariba Urban",
+    "population": 27910,
+    "matched": "Kariba Urban"
+  },
+  "ZW1426": {
+    "name": "Karoi",
+    "population": 37564,
+    "matched": "Karoi"
+  },
+  "ZW1705": {
+    "name": "Kwekwe",
+    "population": 197062,
+    "matched": "Kwekwe Rural"
+  },
+  "ZW1722": {
+    "name": "Kwekwe Urban",
+    "population": 119863,
+    "matched": "Kwekwe Urban"
+  },
+  "ZW1504": {
+    "name": "Lupane",
+    "population": 107248,
+    "matched": "Lupane"
+  },
+  "ZW1405": {
+    "name": "Makonde",
+    "population": 209960,
+    "matched": "Makonde"
+  },
+  "ZW1104": {
+    "name": "Makoni",
+    "population": 288441,
+    "matched": "Makoni"
+  },
+  "ZW1603": {
+    "name": "Mangwe",
+    "population": 65562,
+    "matched": "Mangwe Rural"
+  },
+  "ZW1304": {
+    "name": "Marondera",
+    "population": 136173,
+    "matched": "Marondera Rural"
+  },
+  "ZW1321": {
+    "name": "Marondera Urban",
+    "population": 66204,
+    "matched": "Marondera Urban"
+  },
+  "ZW1805": {
+    "name": "Masvingo",
+    "population": 238103,
+    "matched": "Masvingo Rural"
+  },
+  "ZW1821": {
+    "name": "Masvingo Urban",
+    "population": 90286,
+    "matched": "Masvingo Urban"
+  },
+  "ZW1606": {
+    "name": "Matobo",
+    "population": 95694,
+    "matched": "Matobo"
+  },
+  "ZW1204": {
+    "name": "Mazowe",
+    "population": 293363,
+    "matched": "Mazowe"
+  },
+  "ZW1706": {
+    "name": "Mberengwa",
+    "population": 208458,
+    "matched": "Mberengwa"
+  },
+  "ZW1208": {
+    "name": "Mbire",
+    "population": 83720,
+    "matched": "Mbire"
+  },
+  "ZW1427": {
+    "name": "Mhondoro-Ngezi",
+    "population": 140994,
+    "matched": "Mhondoro-Ngezi"
+  },
+  "ZW1205": {
+    "name": "Mount Darwin",
+    "population": 240728,
+    "matched": "Mount Darwin"
+  },
+  "ZW1305": {
+    "name": "Mudzi",
+    "population": 158478,
+    "matched": "Mudzi"
+  },
+  "ZW1306": {
+    "name": "Murehwa",
+    "population": 205440,
+    "matched": "Murehwa"
+  },
+  "ZW1105": {
+    "name": "Mutare",
+    "population": 306760,
+    "matched": "Mutare Rural"
+  },
+  "ZW1121": {
+    "name": "Mutare Urban",
+    "population": 224804,
+    "matched": "Mutare Urban"
+  },
+  "ZW1106": {
+    "name": "Mutasa",
+    "population": 197808,
+    "matched": "Mutasa"
+  },
+  "ZW1307": {
+    "name": "Mutoko",
+    "population": 161091,
+    "matched": "Mutoko"
+  },
+  "ZW1209": {
+    "name": "Mvurwi",
+    "population": 15646,
+    "matched": "Mvurwi"
+  },
+  "ZW1806": {
+    "name": "Mwenezi",
+    "population": 209327,
+    "matched": "Mwenezi"
+  },
+  "ZW1505": {
+    "name": "Nkayi",
+    "population": 112471,
+    "matched": "Nkayi"
+  },
+  "ZW1425": {
+    "name": "Norton",
+    "population": 87039,
+    "matched": "Norton"
+  },
+  "ZW1107": {
+    "name": "Nyanga",
+    "population": 146227,
+    "matched": "Nyanga"
+  },
+  "ZW1623": {
+    "name": "Plumtree",
+    "population": 14460,
+    "matched": "Mangwe Urban (Plumtree)"
+  },
+  "ZW1723": {
+    "name": "Redcliff",
+    "population": 41526,
+    "matched": "Redcliff"
+  },
+  "ZW1122": {
+    "name": "Rusape",
+    "population": 37906,
+    "matched": "Rusape"
+  },
+  "ZW1206": {
+    "name": "Rushinga",
+    "population": 76876,
+    "matched": "Rushinga"
+  },
+  "ZW1326": {
+    "name": "Ruwa",
+    "population": 94078,
+    "matched": "Ruwa"
+  },
+  "ZW1428": {
+    "name": "Sanyati",
+    "population": 139235,
+    "matched": "Sanyati"
+  },
+  "ZW1308": {
+    "name": "Seke",
+    "population": 200478,
+    "matched": "Seke"
+  },
+  "ZW1207": {
+    "name": "Shamva",
+    "population": 165641,
+    "matched": "Shamva"
+  },
+  "ZW1707": {
+    "name": "Shurugwi",
+    "population": 98315,
+    "matched": "Shurugwi Rural"
+  },
+  "ZW1728": {
+    "name": "Shurugwi Town",
+    "population": 23304,
+    "matched": "Shurugwi Urban"
+  },
+  "ZW1506": {
+    "name": "Tsholotsho",
+    "population": 115782,
+    "matched": "Tsholotsho"
+  },
+  "ZW1507": {
+    "name": "Umguza",
+    "population": 113265,
+    "matched": "Umguza"
+  },
+  "ZW1607": {
+    "name": "Umzingwane",
+    "population": 71860,
+    "matched": "Umzingwane"
+  },
+  "ZW1309": {
+    "name": "Uzumba Maramba Pfungwe",
+    "population": 124226,
+    "matched": "Uzumba-Maramba-Pfungwe (UMP)"
+  },
+  "ZW1522": {
+    "name": "Victoria Falls",
+    "population": 35215,
+    "matched": "Victoria Falls"
+  },
+  "ZW1807": {
+    "name": "Zaka",
+    "population": 198889,
+    "matched": "Zaka"
+  },
+  "ZW1406": {
+    "name": "Zvimba",
+    "population": 348002,
+    "matched": "Zvimba"
+  },
+  "ZW1708": {
+    "name": "Zvishavane",
+    "population": 85035,
+    "matched": "Zvishavane Rural"
+  },
+  "ZW1725": {
+    "name": "Zvishavane Urban",
+    "population": 59714,
+    "matched": "Zvishavane Urban"
+  }
+}

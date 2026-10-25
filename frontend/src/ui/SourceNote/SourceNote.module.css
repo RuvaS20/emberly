@@ -1,0 +1,5 @@
+.note {
+  color: var(--ink-faint);
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-leading);
+}

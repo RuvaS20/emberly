@@ -1,0 +1,294 @@
+.head {
+  max-width: 900px;
+}
+
+.title {
+  margin: 0;
+  font-size: clamp(30px, 4.4vw, 52px);
+  font-weight: 400;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+}
+
+.hot {
+  color: var(--heat-3);
+}
+
+.sub {
+  margin: 6px 0 0;
+  color: var(--ink-body);
+  font-size: clamp(19px, 2.2vw, 27px);
+  font-weight: 300;
+  letter-spacing: -0.02em;
+}
+
+.sub2 {
+  margin: 2px 0 0;
+  color: var(--ink-faint);
+  font-size: clamp(15px, 1.6vw, 21px);
+  font-weight: 300;
+}
+
+.legend {
+  margin-top: var(--space-5);
+  color: var(--ink-muted);
+  font-family: var(--font-cond);
+  font-size: 15px;
+}
+
+.swatches {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 6px;
+}
+
+.sw {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 68px;
+  height: 24px;
+  padding: 0 var(--space-2);
+  border-radius: var(--radius-sm);
+  font-size: 14px;
+}
+
+/* Heat bands, palest to deepest. Text flips to white where the fill gets dark. */
+.bin0 { background: var(--heat-0); color: var(--ink); }
+.bin1 { background: var(--heat-1); color: var(--ink); }
+.bin2 { background: var(--heat-2); color: var(--ink); }
+.bin3 { background: var(--heat-3); color: #ffffff; }
+.bin4 { background: var(--heat-4); color: #ffffff; }
+
+.body {
+  display: grid;
+  grid-template-columns: 200px minmax(0, 1fr) 220px;
+  gap: var(--space-6);
+  align-items: start;
+  margin-top: var(--space-6);
+}
+
+@media (max-width: 1100px) {
+  .body {
+    grid-template-columns: 1fr;
+  }
+}
+
+.side {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+.gridWrap {
+  min-width: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 6px;
+}
+
+.tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1;
+  padding: 2px;
+  border-radius: 7px;
+  font-family: var(--font-cond);
+  line-height: 1;
+  text-align: center;
+  transition: transform 0.12s;
+}
+
+.tile:hover {
+  transform: scale(1.08);
+  z-index: 3;
+  box-shadow: var(--shadow-pop);
+}
+
+.v {
+  font-size: clamp(13px, 1.7vw, 25px);
+  font-weight: 600;
+  letter-spacing: -0.3px;
+}
+
+.n {
+  max-width: 100%;
+  margin-top: 3px;
+  overflow: hidden;
+  font-size: clamp(8px, 0.95vw, 13.5px);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* Long district names, set tighter so they still fit the tile */
+.nSmall {
+  font-size: clamp(7px, 0.82vw, 12px);
+  letter-spacing: -0.2px;
+}
+
+.s {
+  margin-top: 1px;
+  font-size: clamp(7px, 0.8vw, 11px);
+  opacity: 0.75;
+}
+
+/* Left box: the ordinary weekly baseline */
+.box {
+  padding: 16px 12px 14px;
+  border: 2px solid var(--line-strong);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.boxTile {
+  width: 118px;
+  margin: 0 auto 12px;
+  padding: 9px 6px 8px;
+  border-radius: 8px;
+  background: var(--surface-sunken);
+  color: var(--ink);
+  font-family: var(--font-cond);
+  line-height: 1;
+}
+
+.boxTile b {
+  display: block;
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.boxTile span {
+  font-size: 15px;
+}
+
+.boxCap {
+  font-family: var(--font-cond);
+  font-size: 19px;
+  line-height: 1.05;
+  text-transform: uppercase;
+}
+
+.boxNote {
+  margin: var(--space-2) 0 0;
+  color: var(--ink-faint);
+  font-size: 11.5px;
+  line-height: 1.3;
+}
+
+.note {
+  margin: 0;
+  color: var(--ink-body);
+  font-family: var(--font-cond);
+  font-size: 19px;
+  line-height: 1.12;
+}
+
+/* Right column */
+.k {
+  color: var(--ink-faint);
+  font-family: var(--font-cond);
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.big {
+  color: var(--heat-3);
+  font-family: var(--font-cond);
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 0.95;
+}
+
+.d {
+  margin: 0;
+  color: var(--ink-body);
+  font-family: var(--font-cond);
+  font-size: 19px;
+  line-height: 1.1;
+}
+
+.bars {
+  display: flex;
+  align-items: flex-end;
+  gap: 5px;
+  height: 100px;
+  margin-top: 6px;
+}
+
+.db {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+  font-family: var(--font-cond);
+}
+
+.db i {
+  display: block;
+  width: 100%;
+  min-height: 2px;
+  border-radius: 3px 3px 0 0;
+  background: var(--heat-1);
+}
+
+.dbPeak i {
+  background: var(--heat-3);
+}
+
+.dv {
+  margin-bottom: 3px;
+  color: var(--ink-muted);
+  font-size: 12.5px;
+}
+
+.dbPeak .dv {
+  color: var(--heat-3);
+  font-weight: 600;
+}
+
+.dl {
+  margin-top: 4px;
+  color: var(--ink-faint);
+  font-size: 12px;
+  line-height: 1;
+  text-align: center;
+}
+
+.totalK {
+  color: var(--ink-body);
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: -0.5px;
+}
+
+.totalBig {
+  color: var(--heat-3);
+  font-family: var(--font-cond);
+  font-size: 76px;
+  font-weight: 600;
+  line-height: 0.9;
+}
+
+.totalU {
+  font-family: var(--font-cond);
+  font-size: 22px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.totalR {
+  margin: 6px 0 0;
+  color: var(--ink-faint);
+  font-family: var(--font-cond);
+  font-size: 16px;
+  line-height: 1.15;
+}

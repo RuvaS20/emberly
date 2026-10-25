@@ -1,0 +1,8 @@
+.badge {
+  padding: var(--space-1) 0.625rem;
+  border-radius: var(--radius-md);
+  color: var(--ink-strong);
+  font-size: var(--text-sm);
+  line-height: var(--text-sm-leading);
+  font-weight: 600;
+}

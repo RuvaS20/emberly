@@ -1,0 +1,18 @@
+.tip {
+  position: fixed;
+  z-index: 20;
+  pointer-events: none;
+  padding: var(--space-2) var(--space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  box-shadow: 0 8px 24px rgb(0 0 0 / 0.12);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.label {
+  display: inline-block;
+  width: 120px;
+  color: var(--ink-muted);
+}

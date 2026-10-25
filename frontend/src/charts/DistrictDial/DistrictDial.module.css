@@ -1,0 +1,67 @@
+.title {
+  margin: 0;
+  max-width: 900px;
+  font-size: clamp(22px, 2.6vw, 32px);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.25;
+}
+
+.sub {
+  margin: 10px 0 0;
+  max-width: 860px;
+  color: var(--ink-muted);
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.key {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: var(--space-3);
+  white-space: nowrap;
+}
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.dotThen {
+  border: 2px solid var(--chart-then);
+  background: var(--surface);
+}
+
+.dotHotter {
+  background: var(--chart-hotter);
+}
+
+.dotCooler {
+  background: var(--chart-cooler);
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 380px;
+  gap: var(--space-5);
+  margin-top: var(--space-6);
+}
+
+@media (max-width: 1000px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card {
+  padding: var(--space-5);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-xl);
+}
+
+.panel {
+  background: var(--surface-muted);
+}

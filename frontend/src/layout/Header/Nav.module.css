@@ -1,0 +1,21 @@
+.nav {
+  display: flex;
+  gap: var(--space-5);
+  font-size: var(--text-sm);
+  line-height: var(--text-sm-leading);
+  font-weight: 500;
+}
+
+.link {
+  color: var(--ink-muted);
+}
+
+.link[aria-current='page'] {
+  color: var(--ink);
+}
+
+@media (hover: hover) {
+  .link:hover {
+    color: var(--ink);
+  }
+}

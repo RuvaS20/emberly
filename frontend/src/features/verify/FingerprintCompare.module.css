@@ -1,0 +1,43 @@
+.label {
+  margin-bottom: var(--space-1);
+  color: var(--ink-faint);
+  font-size: var(--text-xs);
+  line-height: var(--text-xs-leading);
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+}
+
+.value {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  line-height: var(--text-sm-leading);
+  word-break: break-all;
+}
+
+/* Characters reveal one by one; mismatches flash red */
+@keyframes reveal {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: none; }
+}
+
+@keyframes flash {
+  0%, 100% { background: transparent; }
+  50% { background: var(--danger-flash); }
+}
+
+.char {
+  display: inline-block;
+  color: var(--ink-body);
+  animation: reveal 0.3s both;
+}
+
+.bad {
+  display: inline-block;
+  color: var(--danger);
+  font-weight: 700;
+  animation: reveal 0.3s both, flash 1s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .char, .bad { animation: none; }
+}

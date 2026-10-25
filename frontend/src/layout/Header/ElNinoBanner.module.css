@@ -1,0 +1,12 @@
+.banner {
+  background: var(--warm-surface);
+  color: var(--warm-ink);
+  padding: var(--space-2) var(--space-4);
+  text-align: center;
+  font-size: var(--text-sm);
+  line-height: var(--text-sm-leading);
+}
+
+.source {
+  text-decoration: underline;
+}

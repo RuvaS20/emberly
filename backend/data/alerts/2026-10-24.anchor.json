@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-24",
+  "fingerprint": "04cb9c5e440093cd23b4dd5315f384f949e62fe330fa217a0dea63e8f20db6c3",
+  "tx_hash": "0x1468e71aafbb8d5e6465fbf25df97d0f09728e5382d284c2256aa2cf7d242ab2",
+  "block": 11985679,
+  "contract": "0xF9A01d541DcCcd80E9ADe7C1B04516132356A9f6",
+  "explorer_tx": "https://sepolia.etherscan.io/tx/0x1468e71aafbb8d5e6465fbf25df97d0f09728e5382d284c2256aa2cf7d242ab2",
+  "explorer_contract": "https://sepolia.etherscan.io/address/0xF9A01d541DcCcd80E9ADe7C1B04516132356A9f6",
+  "anchored_utc": "2026-10-24T18:53:25Z"
+}

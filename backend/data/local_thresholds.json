@@ -1,0 +1,548 @@
+{
+  "ZW1601": {
+    "name": "Beitbridge",
+    "province": "Matabeleland South",
+    "p90": 37.4,
+    "p95": 38.9
+  },
+  "ZW1622": {
+    "name": "Beitbridge Urban",
+    "province": "Matabeleland South",
+    "p90": 37.4,
+    "p95": 38.9
+  },
+  "ZW1801": {
+    "name": "Bikita",
+    "province": "Masvingo",
+    "p90": 35.2,
+    "p95": 36.6
+  },
+  "ZW1201": {
+    "name": "Bindura",
+    "province": "Mashonaland Central",
+    "p90": 32.4,
+    "p95": 33.7
+  },
+  "ZW1221": {
+    "name": "Bindura Urban",
+    "province": "Mashonaland Central",
+    "p90": 32.3,
+    "p95": 33.5
+  },
+  "ZW1501": {
+    "name": "Binga",
+    "province": "Matabeleland North",
+    "p90": 36.2,
+    "p95": 37.5
+  },
+  "ZW1502": {
+    "name": "Bubi",
+    "province": "Matabeleland North",
+    "p90": 34.4,
+    "p95": 35.6
+  },
+  "ZW1101": {
+    "name": "Buhera",
+    "province": "Manicaland",
+    "p90": 34.1,
+    "p95": 35.4
+  },
+  "ZW1021": {
+    "name": "Bulawayo",
+    "province": "Bulawayo",
+    "p90": 33.5,
+    "p95": 34.8
+  },
+  "ZW1602": {
+    "name": "Bulilima",
+    "province": "Matabeleland South",
+    "p90": 35.6,
+    "p95": 36.7
+  },
+  "ZW1202": {
+    "name": "Centenary/ Muzarabani",
+    "province": "Mashonaland Central",
+    "p90": 34.9,
+    "p95": 36.2
+  },
+  "ZW1401": {
+    "name": "Chegutu",
+    "province": "Mashonaland West",
+    "p90": 32.8,
+    "p95": 34.0
+  },
+  "ZW1423": {
+    "name": "Chegutu Urban",
+    "province": "Mashonaland West",
+    "p90": 35.0,
+    "p95": 36.2
+  },
+  "ZW1301": {
+    "name": "Chikomba",
+    "province": "Mashonaland East",
+    "p90": 31.7,
+    "p95": 33.1
+  },
+  "ZW1102": {
+    "name": "Chimanimani",
+    "province": "Manicaland",
+    "p90": 33.5,
+    "p95": 35.0
+  },
+  "ZW1421": {
+    "name": "Chinhoyi",
+    "province": "Mashonaland West",
+    "p90": 34.5,
+    "p95": 35.7
+  },
+  "ZW1103": {
+    "name": "Chipinge",
+    "province": "Manicaland",
+    "p90": 35.3,
+    "p95": 37.0
+  },
+  "ZW1123": {
+    "name": "Chipinge Urban",
+    "province": "Manicaland",
+    "p90": 33.5,
+    "p95": 35.0
+  },
+  "ZW1802": {
+    "name": "Chiredzi",
+    "province": "Masvingo",
+    "p90": 37.7,
+    "p95": 39.2
+  },
+  "ZW1822": {
+    "name": "Chiredzi Urban",
+    "province": "Masvingo",
+    "p90": 38.0,
+    "p95": 39.5
+  },
+  "ZW1701": {
+    "name": "Chirumhanzu",
+    "province": "Midlands",
+    "p90": 32.3,
+    "p95": 33.6
+  },
+  "ZW1922": {
+    "name": "Chitungwiza",
+    "province": "Harare",
+    "p90": 31.6,
+    "p95": 32.8
+  },
+  "ZW1803": {
+    "name": "Chivi",
+    "province": "Masvingo",
+    "p90": 35.7,
+    "p95": 37.2
+  },
+  "ZW1923": {
+    "name": "Epworth",
+    "province": "Harare",
+    "p90": 31.6,
+    "p95": 32.8
+  },
+  "ZW1702": {
+    "name": "Gokwe North",
+    "province": "Midlands",
+    "p90": 37.4,
+    "p95": 38.7
+  },
+  "ZW1703": {
+    "name": "Gokwe South",
+    "province": "Midlands",
+    "p90": 35.9,
+    "p95": 37.1
+  },
+  "ZW1729": {
+    "name": "Gokwe South Urban",
+    "province": "Midlands",
+    "p90": 35.9,
+    "p95": 37.1
+  },
+  "ZW1302": {
+    "name": "Goromonzi",
+    "province": "Mashonaland East",
+    "p90": 31.6,
+    "p95": 32.8
+  },
+  "ZW1203": {
+    "name": "Guruve",
+    "province": "Mashonaland Central",
+    "p90": 34.6,
+    "p95": 35.9
+  },
+  "ZW1804": {
+    "name": "Gutu",
+    "province": "Masvingo",
+    "p90": 32.4,
+    "p95": 33.8
+  },
+  "ZW1604": {
+    "name": "Gwanda",
+    "province": "Matabeleland South",
+    "p90": 35.8,
+    "p95": 37.2
+  },
+  "ZW1621": {
+    "name": "Gwanda Urban",
+    "province": "Matabeleland South",
+    "p90": 35.9,
+    "p95": 37.2
+  },
+  "ZW1704": {
+    "name": "Gweru",
+    "province": "Midlands",
+    "p90": 33.4,
+    "p95": 34.6
+  },
+  "ZW1721": {
+    "name": "Gweru Urban",
+    "province": "Midlands",
+    "p90": 33.1,
+    "p95": 34.4
+  },
+  "ZW1921": {
+    "name": "Harare",
+    "province": "Harare",
+    "p90": 31.6,
+    "p95": 32.8
+  },
+  "ZW1924": {
+    "name": "Harare Rural",
+    "province": "Harare",
+    "p90": 31.6,
+    "p95": 32.8
+  },
+  "ZW1402": {
+    "name": "Hurungwe",
+    "province": "Mashonaland West",
+    "p90": 34.6,
+    "p95": 36.0
+  },
+  "ZW1503": {
+    "name": "Hwange",
+    "province": "Matabeleland North",
+    "p90": 36.8,
+    "p95": 38.1
+  },
+  "ZW1521": {
+    "name": "Hwange Urban",
+    "province": "Matabeleland North",
+    "p90": 36.8,
+    "p95": 38.1
+  },
+  "ZW1303": {
+    "name": "Hwedza",
+    "province": "Mashonaland East",
+    "p90": 31.5,
+    "p95": 32.9
+  },
+  "ZW1605": {
+    "name": "Insiza",
+    "province": "Matabeleland South",
+    "p90": 34.6,
+    "p95": 36.0
+  },
+  "ZW1403": {
+    "name": "Kadoma Urban",
+    "province": "Mashonaland West",
+    "p90": 35.0,
+    "p95": 36.2
+  },
+  "ZW1404": {
+    "name": "Kariba",
+    "province": "Mashonaland West",
+    "p90": 37.0,
+    "p95": 38.3
+  },
+  "ZW1424": {
+    "name": "Kariba Urban",
+    "province": "Mashonaland West",
+    "p90": 35.8,
+    "p95": 36.9
+  },
+  "ZW1426": {
+    "name": "Karoi",
+    "province": "Mashonaland West",
+    "p90": 33.9,
+    "p95": 35.2
+  },
+  "ZW1705": {
+    "name": "Kwekwe",
+    "province": "Midlands",
+    "p90": 34.4,
+    "p95": 35.6
+  },
+  "ZW1722": {
+    "name": "Kwekwe Urban",
+    "province": "Midlands",
+    "p90": 33.9,
+    "p95": 35.0
+  },
+  "ZW1504": {
+    "name": "Lupane",
+    "province": "Matabeleland North",
+    "p90": 36.1,
+    "p95": 37.3
+  },
+  "ZW1405": {
+    "name": "Makonde",
+    "province": "Mashonaland West",
+    "p90": 33.9,
+    "p95": 35.2
+  },
+  "ZW1104": {
+    "name": "Makoni",
+    "province": "Manicaland",
+    "p90": 31.5,
+    "p95": 32.9
+  },
+  "ZW1603": {
+    "name": "Mangwe",
+    "province": "Matabeleland South",
+    "p90": 35.9,
+    "p95": 37.1
+  },
+  "ZW1304": {
+    "name": "Marondera",
+    "province": "Mashonaland East",
+    "p90": 31.7,
+    "p95": 33.0
+  },
+  "ZW1321": {
+    "name": "Marondera Urban",
+    "province": "Mashonaland East",
+    "p90": 31.6,
+    "p95": 32.8
+  },
+  "ZW1805": {
+    "name": "Masvingo",
+    "province": "Masvingo",
+    "p90": 35.7,
+    "p95": 37.2
+  },
+  "ZW1821": {
+    "name": "Masvingo Urban",
+    "province": "Masvingo",
+    "p90": 34.3,
+    "p95": 35.7
+  },
+  "ZW1606": {
+    "name": "Matobo",
+    "province": "Matabeleland South",
+    "p90": 35.9,
+    "p95": 37.2
+  },
+  "ZW1204": {
+    "name": "Mazowe",
+    "province": "Mashonaland Central",
+    "p90": 32.2,
+    "p95": 33.4
+  },
+  "ZW1706": {
+    "name": "Mberengwa",
+    "province": "Midlands",
+    "p90": 35.0,
+    "p95": 36.5
+  },
+  "ZW1208": {
+    "name": "Mbire",
+    "province": "Mashonaland Central",
+    "p90": 38.2,
+    "p95": 39.7
+  },
+  "ZW1427": {
+    "name": "Mhondoro-Ngezi",
+    "province": "Mashonaland West",
+    "p90": 35.0,
+    "p95": 36.2
+  },
+  "ZW1205": {
+    "name": "Mount Darwin",
+    "province": "Mashonaland Central",
+    "p90": 34.9,
+    "p95": 36.3
+  },
+  "ZW1305": {
+    "name": "Mudzi",
+    "province": "Mashonaland East",
+    "p90": 34.9,
+    "p95": 36.2
+  },
+  "ZW1306": {
+    "name": "Murehwa",
+    "province": "Mashonaland East",
+    "p90": 31.0,
+    "p95": 32.2
+  },
+  "ZW1105": {
+    "name": "Mutare",
+    "province": "Manicaland",
+    "p90": 32.2,
+    "p95": 33.8
+  },
+  "ZW1121": {
+    "name": "Mutare Urban",
+    "province": "Manicaland",
+    "p90": 32.2,
+    "p95": 33.8
+  },
+  "ZW1106": {
+    "name": "Mutasa",
+    "province": "Manicaland",
+    "p90": 28.5,
+    "p95": 30.0
+  },
+  "ZW1307": {
+    "name": "Mutoko",
+    "province": "Mashonaland East",
+    "p90": 33.0,
+    "p95": 34.3
+  },
+  "ZW1209": {
+    "name": "Mvurwi",
+    "province": "Mashonaland Central",
+    "p90": 32.9,
+    "p95": 34.2
+  },
+  "ZW1806": {
+    "name": "Mwenezi",
+    "province": "Masvingo",
+    "p90": 37.7,
+    "p95": 39.2
+  },
+  "ZW1505": {
+    "name": "Nkayi",
+    "province": "Matabeleland North",
+    "p90": 34.7,
+    "p95": 35.9
+  },
+  "ZW1425": {
+    "name": "Norton",
+    "province": "Mashonaland West",
+    "p90": 32.8,
+    "p95": 34.0
+  },
+  "ZW1107": {
+    "name": "Nyanga",
+    "province": "Manicaland",
+    "p90": 29.9,
+    "p95": 31.3
+  },
+  "ZW1623": {
+    "name": "Plumtree",
+    "province": "Matabeleland South",
+    "p90": 33.9,
+    "p95": 35.1
+  },
+  "ZW1723": {
+    "name": "Redcliff",
+    "province": "Midlands",
+    "p90": 33.9,
+    "p95": 35.0
+  },
+  "ZW1122": {
+    "name": "Rusape",
+    "province": "Manicaland",
+    "p90": 31.5,
+    "p95": 32.9
+  },
+  "ZW1206": {
+    "name": "Rushinga",
+    "province": "Mashonaland Central",
+    "p90": 36.1,
+    "p95": 37.5
+  },
+  "ZW1326": {
+    "name": "Ruwa",
+    "province": "Mashonaland East",
+    "p90": 31.6,
+    "p95": 32.8
+  },
+  "ZW1428": {
+    "name": "Sanyati",
+    "province": "Mashonaland West",
+    "p90": 36.1,
+    "p95": 37.3
+  },
+  "ZW1308": {
+    "name": "Seke",
+    "province": "Mashonaland East",
+    "p90": 31.7,
+    "p95": 33.0
+  },
+  "ZW1207": {
+    "name": "Shamva",
+    "province": "Mashonaland Central",
+    "p90": 34.1,
+    "p95": 35.4
+  },
+  "ZW1707": {
+    "name": "Shurugwi",
+    "province": "Midlands",
+    "p90": 34.5,
+    "p95": 35.9
+  },
+  "ZW1728": {
+    "name": "Shurugwi Town",
+    "province": "Midlands",
+    "p90": 33.1,
+    "p95": 34.4
+  },
+  "ZW1506": {
+    "name": "Tsholotsho",
+    "province": "Matabeleland North",
+    "p90": 36.3,
+    "p95": 37.5
+  },
+  "ZW1507": {
+    "name": "Umguza",
+    "province": "Matabeleland North",
+    "p90": 34.7,
+    "p95": 35.9
+  },
+  "ZW1607": {
+    "name": "Umzingwane",
+    "province": "Matabeleland South",
+    "p90": 33.9,
+    "p95": 35.2
+  },
+  "ZW1309": {
+    "name": "Uzumba Maramba Pfungwe",
+    "province": "Mashonaland East",
+    "p90": 34.1,
+    "p95": 35.4
+  },
+  "ZW1522": {
+    "name": "Victoria Falls",
+    "province": "Matabeleland North",
+    "p90": 36.4,
+    "p95": 37.7
+  },
+  "ZW1807": {
+    "name": "Zaka",
+    "province": "Masvingo",
+    "p90": 36.1,
+    "p95": 37.6
+  },
+  "ZW1406": {
+    "name": "Zvimba",
+    "province": "Mashonaland West",
+    "p90": 32.2,
+    "p95": 33.4
+  },
+  "ZW1708": {
+    "name": "Zvishavane",
+    "province": "Midlands",
+    "p90": 35.0,
+    "p95": 36.5
+  },
+  "ZW1725": {
+    "name": "Zvishavane Urban",
+    "province": "Midlands",
+    "p90": 35.0,
+    "p95": 36.5
+  }
+}

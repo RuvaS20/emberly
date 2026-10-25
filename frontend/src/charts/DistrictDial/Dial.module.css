@@ -1,0 +1,46 @@
+.dial {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.ringLabel {
+  fill: var(--ink-faint);
+  font-size: 10px;
+}
+
+.province {
+  fill: var(--ink-muted);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.district {
+  fill: var(--ink-muted);
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.active {
+  fill: var(--ink);
+  font-weight: 700;
+}
+
+.bigPct {
+  fill: var(--ink);
+  font-size: 76px;
+  font-weight: 800;
+}
+
+.centreLine {
+  fill: var(--ink-muted);
+  font-size: 15px;
+}
+
+.centreChange {
+  fill: var(--chart-hotter);
+  font-size: 13px;
+  font-weight: 600;
+}

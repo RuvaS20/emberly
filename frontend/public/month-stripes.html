@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Monthly Heat Stripes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+  <style>
+    :root {
+      --bg: #09090b;
+      --text: #f4f4f5;
+      --muted: #a1a1aa;
+      --faint: #52525b;
+      --grid: #27272a;
+      --panel: #18181b;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: Inter, system-ui, sans-serif; }
+    main { max-width: 1200px; margin: 0 auto; padding: 32px 16px; }
+    .top { display: flex; flex-wrap: wrap; gap: 16px 32px; justify-content: space-between; align-items: flex-end; }
+    h1 { margin: 0; font-size: clamp(20px, 2.4vw, 28px); font-weight: 600; line-height: 1.25; max-width: 780px; }
+    .sub { margin: 8px 0 0; color: var(--muted); font-size: 14px; max-width: 780px; line-height: 1.5; }
+    .legend { font-size: 12px; color: var(--muted); }
+    .legend .labels { display: flex; justify-content: space-between; margin-top: 4px; }
+    #chart { margin-top: 24px; }
+    #chart svg { width: 100%; height: auto; display: block; overflow: visible; }
+    .month { fill: var(--muted); font-size: 13px; }
+    .change { font-size: 13px; font-weight: 600; }
+    .axis text { fill: var(--muted); font-size: 12px; font-family: Inter, sans-serif; }
+    .axis path, .axis line { stroke: var(--faint); }
+    .grid line { stroke: var(--grid); }
+    .colhead { fill: var(--faint); font-size: 11px; }
+    .source { margin-top: 16px; color: var(--faint); font-size: 12px; line-height: 1.5; }
+    .tip {
+      position: fixed; pointer-events: none; opacity: 0; transition: opacity 0.1s;
+      background: var(--panel); border: 1px solid #3f3f46; border-radius: 6px;
+      padding: 8px 12px; font-size: 13px; line-height: 1.5; box-shadow: 0 8px 24px rgb(0 0 0 / 0.4);
+    }
+    .tip b { font-weight: 600; }
+    .tip .muted { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="top">
+      <div>
+        <h1 id="title">Loading…</h1>
+        <p class="sub" id="sub"></p>
+      </div>
+      <div class="legend" id="legend"></div>
+    </div>
+    <div id="chart"></div>
+    <p class="source" id="source"></p>
+  </main>
+  <div class="tip" id="tip"></div>
+
+  <script>
+    const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+    // Cool side in blues; warm side uses the dashboard's heat palette
+    const RAMP = ['#1e40af', '#60a5fa', '#e7e5e4', '#f97316', '#b91c1c']
+    const fmt = (v) => `${v > 0 ? '+' : v < 0 ? '−' : ''}${Math.abs(v).toFixed(1)}°C`
+
+    d3.json('data/monthly_anomaly.json').then(({ rows, baseline, normals, source, districts }) => {
+      const byMonth = d3.group(rows, (d) => d.month)
+      const years = d3.extent(rows, (d) => d.year)
+      const firstDecade = [years[0], years[0] + 9]
+
+      // Change per month: mean anomaly of the latest 10 years vs the first 10 years
+      const change = new Map(MONTHS.map((_, i) => {
+        const rs = byMonth.get(i + 1)
+        const early = d3.mean(rs.filter((d) => d.year <= firstDecade[1]), (d) => d.anomaly)
+        const late = d3.mean(rs.slice(-10), (d) => d.anomaly)
+        return [i + 1, late - early]
+      }))
+      const warmed = [...change.values()].filter((v) => v > 0).length
+      const [topMonth, topChange] = [...change].sort((a, b) => b[1] - a[1])[0]
+
+      d3.select('#title').text(
+        `${warmed} of 12 months in Zimbabwe are hotter than in the 1980s. ${MONTHS[topMonth - 1]} has warmed the most, by ${fmt(topChange)}.`)
+      d3.select('#sub').text(
+        `Each stripe is one month in one year, coloured by how far its average daily maximum temperature was from the ${baseline} ` +
+        `average for that month. The figure on the right compares the latest 10 years with ${firstDecade[0]}–${firstDecade[1]}.`)
+      d3.select('#source').text(
+        `Source: ${source}, averaged across all ${districts} districts with equal weight. Months with under 90% of days recorded are left out. ` +
+        `Emberly, ${new Date().getFullYear()}.`)
+
+      // Layout
+      const W = 1100, rowH = 22, gap = 18
+      const m = { top: 24, right: 90, bottom: 36, left: 96 }
+      const H = m.top + MONTHS.length * (rowH + gap) - gap + m.bottom
+      const x = d3.scaleLinear().domain([years[0], years[1] + 1]).range([m.left, W - m.right])
+      const lo = d3.min(rows, (d) => d.anomaly), hi = d3.max(rows, (d) => d.anomaly)
+      const colour = d3.scaleDiverging([lo, 0, hi], d3.piecewise(d3.interpolateRgb, RAMP))
+      const rowY = (month) => m.top + (month - 1) * (rowH + gap)
+
+      const svg = d3.select('#chart').append('svg').attr('viewBox', `0 0 ${W} ${H}`)
+
+      svg.append('g').attr('class', 'grid')
+        .selectAll('line').data(d3.range(Math.ceil(years[0] / 5) * 5, years[1] + 1, 5)).join('line')
+        .attr('x1', x).attr('x2', x).attr('y1', m.top - 10).attr('y2', H - m.bottom + 6)
+
+      svg.append('g').attr('class', 'axis').attr('transform', `translate(0,${H - m.bottom + 6})`)
+        .call(d3.axisBottom(x).tickValues(d3.range(Math.ceil(years[0] / 5) * 5, years[1] + 1, 5)).tickFormat(d3.format('d')).tickSize(4))
+        .call((g) => g.select('.domain').remove())
+
+      svg.append('text').attr('class', 'colhead').attr('x', W - m.right + 14).attr('y', m.top - 10).text('Change')
+
+      const tip = d3.select('#tip')
+      const row = svg.selectAll('g.row').data(MONTHS.map((name, i) => ({ name, month: i + 1, rs: byMonth.get(i + 1) })))
+        .join('g').attr('class', 'row').attr('transform', (d) => `translate(0,${rowY(d.month)})`)
+
+      // Each row is a pill filled with one gradient: a colour stop at the centre of every year, so years blend into each other
+      const x0 = x(years[0])
+      const rowEnd = (d) => x(d3.max(d.rs, (r) => r.year) + 1)
+      row.append('linearGradient').attr('id', (d) => `fade-${d.month}`)
+        .attr('gradientUnits', 'userSpaceOnUse').attr('x1', x0).attr('x2', rowEnd).attr('y1', 0).attr('y2', 0)
+        .each(function (d) {
+          d3.select(this).selectAll('stop').data(d.rs).join('stop')
+            .attr('offset', (r) => (x(r.year + 0.5) - x0) / (rowEnd(d) - x0))
+            .attr('stop-color', (r) => colour(r.anomaly))
+        })
+      row.append('rect').attr('x', x0).attr('width', (d) => rowEnd(d) - x0).attr('height', rowH).attr('rx', rowH / 2)
+        .attr('fill', (d) => `url(#fade-${d.month})`)
+
+      // Hovered year gets a dot in its own colour, like the reference
+      const marker = svg.append('circle').attr('r', rowH * 0.8).attr('stroke', '#fafafa').attr('stroke-width', 2)
+        .attr('pointer-events', 'none').attr('opacity', 0)
+
+      // Invisible per-year hover targets on top of the gradient
+      row.append('g').selectAll('rect').data((d) => d.rs).join('rect')
+        .attr('x', (d) => x(d.year)).attr('width', (d) => x(d.year + 1) - x(d.year)).attr('height', rowH)
+        .attr('fill', 'transparent')
+        .on('pointerenter', function (e, d) {
+          marker.attr('cx', x(d.year + 0.5)).attr('cy', rowY(d.month) + rowH / 2).attr('fill', colour(d.anomaly)).attr('opacity', 1).raise()
+          tip.style('opacity', 1).html(
+            `<b>${MONTHS[d.month - 1]} ${d.year}</b><br>` +
+            `<span class="muted">Difference from ${baseline}:</span> <b>${fmt(d.anomaly)}</b><br>` +
+            `<span class="muted">Average daily max:</span> ${d.tmax.toFixed(1)}°C ` +
+            `<span class="muted">(normal ${normals[d.month].toFixed(1)}°C)</span>`)
+        })
+        .on('pointermove', (e) => {
+          const r = tip.node().getBoundingClientRect()
+          const left = Math.min(e.clientX + 14, innerWidth - r.width - 8)
+          tip.style('left', `${left}px`).style('top', `${e.clientY + 16}px`)
+        })
+        .on('pointerleave', () => {
+          marker.attr('opacity', 0)
+          tip.style('opacity', 0)
+        })
+
+      row.append('text').attr('class', 'month').attr('x', m.left - 14).attr('y', rowH / 2).attr('dy', '0.35em')
+        .attr('text-anchor', 'end').text((d) => d.name)
+
+      row.append('text').attr('class', 'change').attr('x', W - m.right + 14).attr('y', rowH / 2).attr('dy', '0.35em')
+        .attr('fill', (d) => (change.get(d.month) > 0 ? RAMP[3] : RAMP[1]))
+        .text((d) => fmt(change.get(d.month)))
+
+      // Legend: gradient bar with its range labelled
+      const lw = 220, lh = 10
+      const legend = d3.select('#legend')
+      const ls = legend.append('svg').attr('width', lw).attr('height', lh)
+      const grad = ls.append('defs').append('linearGradient').attr('id', 'ramp')
+      d3.range(0, 1.0001, 0.05).forEach((t) =>
+        grad.append('stop').attr('offset', t).attr('stop-color', colour(lo + t * (hi - lo))))
+      ls.append('rect').attr('width', lw).attr('height', lh).attr('rx', lh / 2).attr('fill', 'url(#ramp)')
+      legend.append('div').attr('class', 'labels').html(`<span>${fmt(lo)} cooler</span><span>hotter ${fmt(hi)}</span>`)
+    }).catch((err) => {
+      d3.select('#title').text('Couldn’t load data/monthly_anomaly.json. Run backend/pipeline/monthly.py, then open this page via the dev server.')
+      console.error(err)
+    })
+  </script>
+</body>
+</html>

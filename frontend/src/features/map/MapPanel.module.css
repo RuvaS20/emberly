@@ -1,0 +1,16 @@
+.title {
+  font-size: var(--text-lg);
+  line-height: var(--text-lg-leading);
+  font-weight: 600;
+}
+
+.summary {
+  color: var(--ink-muted);
+  font-size: var(--text-sm);
+  line-height: var(--text-sm-leading);
+}
+
+.count {
+  color: var(--ink);
+  font-weight: 600;
+}

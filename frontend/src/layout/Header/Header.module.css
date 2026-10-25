@@ -1,0 +1,26 @@
+.header {
+  border-bottom: 1px solid var(--line);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--space-3);
+  max-width: var(--page-max);
+  margin: 0 auto;
+  padding: var(--space-5) var(--space-4);
+}
+
+/* Brand */
+.name {
+  font-size: var(--text-2xl);
+  line-height: var(--text-2xl-leading);
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+
+.mission {
+  color: var(--ink-muted);
+}
